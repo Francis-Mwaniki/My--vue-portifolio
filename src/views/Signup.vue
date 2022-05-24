@@ -344,7 +344,7 @@ async handleSubmit() {
         password: this.password,
         confirmPassword: this.confirmPassword,
       };
-      let url='http://localhost:3000/api/user/register';
+      let url='https://git.heroku.com/my-backendapp.git';
       const res = await fetch(url,{
         method: "POST",
         headers: {
