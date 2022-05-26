@@ -10,6 +10,7 @@
       ml-2
       md:ml-0
       rounded-sm
+      md:w-full
       w-full
     "
   >
