@@ -235,7 +235,7 @@ export default {
         email: this.email,
         password: this.password,
       };
-      let url='https://git.heroku.com/my-backendapp.git';
+      let url='api/user/login';
       const res = await fetch(url, {
         method: "POST",
         headers: {
